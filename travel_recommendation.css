@@ -4,3 +4,65 @@ a {
   font-weight: bold;
   font-size: 15px;
 }
+ul {
+    list-style-type: none;
+    display: flex;
+}
+li {
+    margin-right: 20px;
+}
+nav {
+    display: flex;
+    background-color: rgb(0, 3, 3);
+    color: white;
+    padding: 5px;
+}
+button {
+    width: 100px;
+    height: 30px;
+}
+body {
+    background-image: url('Travel4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input {
+    outline: none;
+    width: 200px;
+    padding: 5px;
+    border-radius:5px;
+}
+#homeHead {
+    position: relative;
+    top: 100px;
+    left: 60px;
+    width: 250px;
+    font-size: 50px;
+}
+#homePara {
+    position: relative;
+    top: 100px;
+    left: 60px;
+    width: 200px;
+    font-size: 15px;
+}
+#aboutusnavdiv {
+    position: absolute;
+    right: 100px;
+}
+#aboutUsHead {
+    position: absolute;
+    top: 85px;
+    left: 60px;
+    width:fit-content;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#aboutUsPara {
+    position: absolute;
+    top: 200px;
+    left: 60px;
+    width: fit-content;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
