@@ -9,7 +9,8 @@ ul {
     display: flex;
 }
 li {
-    margin-right: 20px;
+    margin-right: 35px;
+    display: inline-block;
 }
 nav {
     display: flex;
@@ -52,17 +53,66 @@ input {
 }
 #aboutUsHead {
     position: absolute;
-    top: 85px;
-    left: 60px;
+    top: 80px;
+    left: 120px;
     width:fit-content;
-    font-size: 50px;
+    font-size: 60px;
+    font-weight: 800;
     font-family:Arial, Helvetica, sans-serif;
 }
 #aboutUsPara {
     position: absolute;
-    top: 200px;
-    left: 60px;
+    top: 190px;
+    left: 120px;
     width: fit-content;
-    font-size: 15px;
+    font-size: 18px;
     font-family:Arial, Helvetica, sans-serif;
+}
+#aboutUsHeadTeam {
+    position: absolute;
+    top: 315px;
+    left: 150px;
+    font-size: 50px;
+    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 200px;
+}
+#aboutusUl {
+    position: absolute;
+    top: 350px;
+    left: 400px;
+    font-size: 30px;
+}
+#contactUsHead {
+    position: absolute;
+    top: 315px;
+    left: 150px;
+    font-size: 50px;
+    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 500px;
+}
+#contactUsP {
+    position: absolute;
+    top: 420px;
+    left: 160px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#contactForm {
+    position: absolute;
+    top: 250px;
+    left: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 40px;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    
+}
+#name, #email, #message {
+    background: transparent;
+    width: 300px;
+    
 }

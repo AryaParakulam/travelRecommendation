@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Travel Recommendations
+        </title>
+        <link rel="stylesheet" href="./travel_recommendation.css"></link>
+    </head>
+    <body>
+        <nav>
+            <h1>Travel Recommendations</h1>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div>
+            <h1 id="contactUsHead">CONTACT US</h1>
+            <p id="contactUsP">Get in touch</p>
+        </div>
+        <div>
+            <form id="contactForm">
+                    <div>
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+                    </div>
+                    <div>
+                    <label for="message">Message</label><br>
+                    <textarea id="message" name="message" rows="5" placeholder="Enter your MessageS" required></textarea
+                    </div>
+                    <br>
+                    <button type="submit" onclick="thankyou()">Submit</button>
+            </form>
+        </div>
+        <script src="./travel_recommendation.json"></script>
+    </body>
+</html>
