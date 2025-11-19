@@ -26,6 +26,7 @@ body {
     background-image: url('Travel4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 input {
     outline: none;
@@ -81,7 +82,7 @@ input {
     position: absolute;
     top: 350px;
     left: 400px;
-    font-size: 30px;
+    margin: 20px;
 }
 #contactUsHead {
     position: absolute;
@@ -114,5 +115,30 @@ input {
 #name, #email, #message {
     background: transparent;
     width: 300px;
-    
+    color: white;
+}
+#recommendationDiv {
+    position: absolute;
+    top: 100px;
+    left: 900px;
+}
+.destinations {
+    background: black;
+    color: white;
+    width: 400px;
+    padding: 5px;
+}
+.destImage {
+    width: 380px;
+    height: 250px;
+}
+.teamdiv {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin: 30px;
+    padding: 20px;
+}
+.teamli {
+    margin: 50px%
 }
