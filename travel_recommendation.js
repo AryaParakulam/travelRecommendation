@@ -23,6 +23,11 @@ function showDestinations(){
                if (element.name.toLowerCase().includes(keyword)){
                     viewResult(element.cities);
                }
+               element.cities.forEach(elementCity => {
+                    if (elementCity.name.toLowerCase().includes(keyword)) {
+                        viewResult(element.cities);
+                    }
+               })
             });
         }
 
