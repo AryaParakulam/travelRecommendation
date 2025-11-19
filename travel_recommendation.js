@@ -67,6 +67,7 @@ document.getElementById('btnClear').addEventListener('click',clearDestinations);
 
 function clearDestinations(){
     debugger;
+    document.getElementById('searchText').value="";
     document.getElementById('recommendationDiv').innerHTML = "";
 }
 function thankyou(){
